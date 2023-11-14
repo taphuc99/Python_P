@@ -8,7 +8,6 @@ columns = [ StructField("RECID", StringType(), True),
 
 schema = StructType(columns)
 
-
 def parse_xml(xml_string):
     root = ET.fromstring(xml_string.encode('utf-8'))
     id_value = root.attrib.get('id', None)
