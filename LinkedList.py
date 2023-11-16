@@ -73,4 +73,5 @@ e2.nextval = e3
 list.AtBegining("Sun")
 list.AtEnd("Thu")
 list.Inbetween(list.headval.nextval,"Fri")
+list.RemoveNode("Sun")
 list.listprint()
